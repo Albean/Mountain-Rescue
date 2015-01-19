@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mountain Rescue</string>
+    <string name="helpTitle">Help Info</string>
+    <string name ="menuTitle">Main Menu</string>
+    <string name="help_menu">Help</string>
+    <string name="close">Close</string>
+    <string name="send">Send SOS</string>
+    <string name="Phone_Number">Phone Number</string>
+    <string name="Insert_Number">Insert Number Here</string>
+    <string name="Message">Message</string>
+    <string name="message_hint">Enter text message here</string>
+    <string name="send_sms">Send Message</string>
+    <string name="share">Share</string>
+    <string name="searching">Looking for YOU</string>
+    <string name="no_share">Nothing to share</string>
+    <string name="help">This application was constructed with the user in mind, it was designed to be simple and intuitive to use.\n 
+        				This applications function to to help people when they are in distress it does this by searching for the users GPS location when
+        				it has found the location , it sends a google maps link along with the latitude and longitude in a text message.\n
+        				1.Activate - This\n
+     					2.Message\n
+      					3.Facebook and Twitter\n
+      					4.Help\n
+       					5.Settings -  In settings to you can decide on what message you would like to send,\n by entering in your own or by choosing one of the five oprions from the drop down menu.
+        							 You can also enable/disable the MapView and compass. </string>
+    <string name="message_subject">Subject</string>
+    <string name="subject_summary">Subject for Email</string>
+    <string name="message_summary">Enter your own message</string>
+    <string name="message_title">Message Body</string>
+    <string name="subject">Subject</string>
+    <string name="default_subject">hello</string>
+    <string name="message">SOS message</string>
+    <string name="default_message">My location</string>
+    <string name="location_subject">My Location is</string>
+    <string name="location_body">My location on a google map</string>
+    <string name="preferences_activity">Settings</string>
+    <string name="mapView_title">MapView</string>
+    <string name="mapView_summary">Display map</string>
+    <string name="compass_title">Compass</string>
+    <string name="compass_summary">Display Compass</string>
+    <string name="situation">Your situation</string>
+    <string name="situation_summary">What is wrong with you?</string>
+    <string name="lost">Im Lost</string>
+    <string name="bleeding">Im Bleeding</string>
+    <string name="trapped">Im Trapped</string>
+    <string name="broken_arm">Ive a Broken Arm</string>
+    <string name="broken_leg">Ive a Broken Leg</string>
+
+    <string-array name="situations">
+        <item>@string/lost</item>
+        <item>@string/bleeding</item>
+        <item>@string/trapped</item>
+        <item>@string/broken_arm</item>
+        <item>@string/broken_leg</item>
+    </string-array>
+
+</resources>
