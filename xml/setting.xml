@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:defaultValue="@string/default_subject"
+        android:dialogTitle="@string/subject"
+        android:key="subject"
+        android:summary="@string/subject_summary"
+        android:title="@string/message_subject" />
+    <EditTextPreference
+        android:defaultValue="@string/default_message"
+        android:dialogTitle="@string/message_title"
+        android:key="message"
+        android:summary="@string/message_summary"
+        android:title="@string/message" />
+
+    <ListPreference
+        android:entries="@array/situations"
+        android:entryValues="@array/situation_values"
+        android:key="situation"
+        android:summary="@string/situation_summary"
+        android:title="@string/situation" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="Map"
+        android:summary="@string/mapView_summary"
+        android:title="@string/mapView_title" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="compass"
+        android:summary="@string/compass_summary"
+        android:title="@string/compass_title" />
+
+</PreferenceScreen>
