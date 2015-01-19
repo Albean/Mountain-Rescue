@@ -1,0 +1,12 @@
+*** This is a Final Year Project***
+It may not be free from bugs.
+Please e-mail me if there are any issues or constructive comments.
+
+As this is an FYP, please do not rely solely on this application.
+Always tell somemone where you are going,
+and what time you will be back.
+
+Overview:
+This application has been developed to help people who are in need of assistance when injured,
+or lost.It sends a message with your location and your cureent situation.
+ 
